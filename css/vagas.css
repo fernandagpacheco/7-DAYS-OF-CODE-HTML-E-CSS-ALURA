@@ -1,0 +1,36 @@
+.talentos__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.talentos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.badge {
+    background-color: var(--badge);
+    backopacity: 5%;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+    color: var(--vermelho);
+    font-weight: var(--medio);
+}
+
+.talentos__titulo{
+    font-size: 2.25rem;
+    color: var(--preto);
+    font-weight: var(--semibold);
+}
+
+.talentos__texto{
+    font-size: 1.25rem;
+    font-weight: var(--regular);
+    color: var(--cinza);
+}
+
