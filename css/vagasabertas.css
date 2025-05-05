@@ -1,58 +1,64 @@
 .vagasabertas {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--gap-3xl);
-    padding: var(--padding-3xl) 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xl);
+  padding: var(--padding-3xl) 0;
 }
 
-.container{
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: var(--gap-l);
-    padding: 0 var(--padding-xxl);
-    width: 60%;
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-l);
+  padding: 0 var(--padding-xxl);
+  width: 60%;
 }
 
 .vagas__area {
-    text-decoration: none;
-    font-size: var(--tamanho-m);
-    color: var(--preto);
-    font-weight: var(--medio);
-    align-self: flex-start;
+  text-decoration: none;
+  font-size: var(--tamanho-m);
+  color: var(--preto);
+  font-weight: var(--medio);
+  align-self: flex-start;
+  transition: color 0.15s cursor 0.15s;
 }
 
 .job {
-    display: flex;
-    flex-direction: column;
-    gap:var(--gap-l);
-    padding: var(--padding-l) var(--padding-l) var(--padding-xl) var(--padding-l);
-    border: 1px solid var(--borda);
-    border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-l);
+  padding: var(--padding-l) var(--padding-l) var(--padding-xl) var(--padding-l);
+  border: 1px solid var(--borda);
+  border-radius: 1rem;
 }
 
-.job__titulo{
-    text-decoration: none;
-    color: var(--preto);
-    font-size: var(--tamanho-s);
-    font-weight: var(--medio);
+.job__titulo {
+  text-decoration: none;
+  color: var(--preto);
+  font-size: var(--tamanho-s);
+  font-weight: var(--medio);
+  transition: color 0.15s cursor 0.15s;
 }
 
-.job__descricao{
-    color: var(--cinza);
-    font-weight: var(--medio);
-    display: flex;
-    align-items: center;
-    gap: var(--gap-m);
+.vagas__area:hover , .job__titulo:hover{
+  color: var(--vermelho);
 }
 
-.job__texto{
-    color: var(--cinza);
-    font-weight: var(--regular);
+.job__descricao {
+  color: var(--cinza);
+  font-weight: var(--medio);
+  display: flex;
+  align-items: center;
+  gap: var(--gap-m);
 }
 
-.espaco{
-    line-height: 0;
+.job__texto {
+  color: var(--cinza);
+  font-weight: var(--regular);
+}
+
+.espaco {
+  line-height: 0;
 }

@@ -4,7 +4,7 @@
 @import url(./css/vagas.css);
 @import url(./css/vagasabertas.css);
 @import url(./css/depoimentos.css);
-
+@import url(./css/footer.css);
 
 :root{
 
@@ -14,8 +14,12 @@
     --cinza:#667085;
     --preto:#101828;
     --borda:#EAECF0;
-
+    --input:#D0D5DD;
+    
     --badge:rgba(142, 36, 36, 0.05);
+
+    --footerfundo:#F9FAFB;
+    --footerdireitos:#98A2B3;
 
     /*pesos fonte*/
 
