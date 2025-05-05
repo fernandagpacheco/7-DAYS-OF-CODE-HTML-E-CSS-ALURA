@@ -1,12 +1,12 @@
 .nav{
-    margin: 1.12rem 5rem;
+    margin: var(--margin-s) var(--margin-m);
 }
 
 .nav__list{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: var(--padding-s);
 }
 
 button{
@@ -17,7 +17,7 @@ button{
 
 .nav__item{
     display: flex;
-    gap: 2.5rem;
+    gap: var( --gap-xl);
 }
 
 .nav__link{
@@ -29,7 +29,7 @@ button{
 .nav__acao{
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: var(--gap-xs);
     justify-content: center;
 }
 

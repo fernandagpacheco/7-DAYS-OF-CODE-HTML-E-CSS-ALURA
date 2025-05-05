@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem ;
-    padding: 6rem 0;
+    gap: var(--gap-m);
+    padding: var(--padding-4xl) 0;
 }
 
 .cabecalho__subtitulo{
@@ -12,13 +12,13 @@
 }
 
 .cabecalho__titulo{
-    font-size: 3rem;
+    font-size: var(--tamanho-xl);
     color: var(--preto);
     font-weight: var(--semibold);
 }
 
 .cabecalho__texto{
-    font-size: 1.25rem;
+    font-size: var(--tamanho-m);
     font-weight: var(--regular);
     color: var(--cinza);
     width: 50%;

@@ -1,12 +1,12 @@
 .metricas{
-    padding-bottom: 6rem;
-    margin: 0 5rem; 
+    padding-bottom: var(--padding-4xl);
+    margin: 0 var(--margin-m); 
 }
 
 .metricas__lista{
     display: flex;
-    gap: 2rem;
-    padding: 0 2rem;
+    gap: var(--gap-l);
+    padding: 0 var(--padding-xxl);
     justify-content: space-between;
     margin: 0 auto;
 }
@@ -14,18 +14,18 @@
 .metrica{
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
-    flex: 1
+    gap: var(--gap-s);
+    flex: 1;
 }
 
 .metrica__numero{
-    font-size: 3.75rem;
+    font-size: var(--tamanho-xxl);
     font-weight: var(--semibold);
     color: var(--vermelho);
 }
 
 .metrica__titulo{
-    font-size: 1.125rem;
+    font-size: var(--tamanho-s);
     font-weight: var(--medio);
     color: var(--preto);
 }
