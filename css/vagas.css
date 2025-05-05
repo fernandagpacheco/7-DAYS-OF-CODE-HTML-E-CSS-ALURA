@@ -39,3 +39,9 @@
   font-weight: var(--regular);
   color: var(--cinza);
 }
+
+.foto{
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
